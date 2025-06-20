@@ -1,0 +1,35 @@
+h2 {
+    color: rgb(19, 95, 19);
+}
+
+/*global selector*/
+* {
+    margin: 100;
+    padding: 10;
+}
+
+/* id selector: starts with # */
+#paragraph {
+    color: rgb(122, 36, 201);
+    font-size : 20px;
+    /* text-shadow: x y blur color; */
+    text-shadow: 3px 3px 5px rgb(193, 69, 89)
+}
+
+/* class selector: starts with . */
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: yellowgreen;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(30, 69, 30);
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.box:hover {
+    background-color: rgb(222, 64, 209);
+    border-radius: 20px;
+
+}
