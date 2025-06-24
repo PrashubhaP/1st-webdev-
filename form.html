@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in Html</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+
+<body>
+    <div id="Form-Container">
+        <h1> Sign Up</h1>
+        <!-- helps to go to index tab after submitting the form -->
+        <form action="index.html">
+            <label for="email"> Email </labe><br>
+                <input id="email" type="email" placeholder="Enter your email" name="email" required>
+                <br><br>
+                <label> Password
+                </label><br>
+                <input type="password" placeholder="Enter your password" id="password" name="password" required minlength="6">
+                <br><br>
+                <label>
+                    Birthdate
+                </label>
+                <br>
+                <input type="date" placeholder="Enter your birthdate" name="birthdate">
+                <br><br>
+                <label> CV/Resume
+                    <br>
+                    <input type="file" placeholder="Enter your cv" name="file">
+                </label>
+                <br><br><br>
+                <input type="Submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+
+</html>
