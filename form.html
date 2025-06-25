@@ -14,24 +14,30 @@
         <h1> Sign Up</h1>
         <!-- helps to go to index tab after submitting the form -->
         <form action="index.html">
+            <!-- for entering email -->
             <label for="email"> Email </labe><br>
+                <!-- input for email writing, and placeholder for the thing to contain inside, required helps to fulfill the demand -->
                 <input id="email" type="email" placeholder="Enter your email" name="email" required>
                 <br><br>
                 <label> Password
                 </label><br>
+                <!-- use of minlength -->
                 <input type="password" placeholder="Enter your password" id="password" name="password" required minlength="6">
                 <br><br>
                 <label>
                     Birthdate
                 </label>
                 <br>
+                <!-- type="date" helps to view calendar -->
                 <input type="date" placeholder="Enter your birthdate" name="birthdate">
                 <br><br>
                 <label> CV/Resume
                     <br>
+                    <!-- type="file" for entering any type of document -->
                     <input type="file" placeholder="Enter your cv" name="file">
                 </label>
                 <br><br><br>
+                <!-- type="submit" for final submission and value="sign up" shows the text in the submit bar -->
                 <input type="Submit" value="Sign Up">
         </form>
     </div>
