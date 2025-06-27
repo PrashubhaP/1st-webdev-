@@ -1,29 +1,31 @@
- *{
-    margin: 0;
-    padding: 0;
-}
-#main{
-    height: 500px;
-    width: 500px;
-    background-color: blueviolet;
-    /* makes element flexible, gives space */
-    display: flex;
-    /* align box in row */
-    flex-direction: row;
-    /* sapce betn boxes */
-    justify-content: space-evenly;
-    /* in center */
-    align-items: center; 
+ * {
+     margin: 0;
+     padding: 0;
+ }
 
-}
-#first{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-}
-#second{
-    height:100px;
-    width: 100px;
-    background-color: yellowgreen;
-}
+ #main {
+     height: 500px;
+     width: 500px;
+     background-color: blueviolet;
+     /* makes element flexible, gives space */
+     display: flex;
+     /* align box in row */
+     flex-direction: row;
+     /* sapce betn boxes */
+     justify-content: space-evenly;
+     /* in center */
+     align-items: center;
 
+ }
+
+ #first {
+     height: 100px;
+     width: 100px;
+     background-color: brown;
+ }
+
+ #second {
+     height: 100px;
+     width: 100px;
+     background-color: yellowgreen;
+ }
