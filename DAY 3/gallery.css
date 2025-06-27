@@ -1,10 +1,10 @@
-/* use of . for class */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* display= flex for horixontal and block for vertical...direction is row at first and flex wrap helps, atekojati lai screeen ma rakhne navaye tala lagdine ...gap and centerized*/
-#Gallery{
+#Gallery {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -12,7 +12,9 @@
     flex-wrap: wrap;
 
 }
-.card{
+
+/* use of . for class */
+.card {
     width: 200px;
     height: 200px;
     border: 3px solid black;
@@ -21,14 +23,15 @@
     overflow: none;
     box-shadow: 10px 10px 10px pink;
 
-    /* helps to adjust image,, makes ut scrollable */
+    /* helps to adjust image,, makes it scrollable...overflow=none means exact size of imagegi */
 }
 
-.card img{
+.card img {
     height: 200px;
     width: 200px;
-     border-radius: 20px; 
+    border-radius: 20px;
 }
+
 /* clearfix hack for the part of image going out of the box */
 /* 
 .clearfix::after{
