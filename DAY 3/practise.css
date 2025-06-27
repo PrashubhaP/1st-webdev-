@@ -1,0 +1,46 @@
+/* child selector (>); selects only the direct child element */
+
+#main>p {
+    color: brown;
+    font-size: 20px;
+}
+
+/* descedent selector (space); selects all the child; direct and indirect */
+
+#main p {
+    background-color: rgb(196, 165, 165);
+}
+
+#four {
+    font-style: italic;
+    font-size: 50px;
+    color: aqua;
+}
+
+/* css for tooltip hovering */
+#tooltip-main {
+    height: 100px;
+    width: 200px;
+    background-color: yellowgreen;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+/* actual tooltip */
+#tooltip {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
+
+/* hover pseudo class */
+/* hovering process */
+#tooltip-main:hover #tooltip {
+    display: block;
+}

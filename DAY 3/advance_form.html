@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance form</title>
+</head>
+<body>
+    <h3>Advance Form example</h3>
+    <!-- action helps to go the next page after form submission....enctype has either multipart/form-data for file included data or application/x-www-form-urlencoded for normal data......here onsubmit helps to give alert. -->
+    <form action="https://www.google.com" enctype="application/x-www-form-urlencoded" onsubmit="alert('form submitted')">
+        <!-- USING CHECKBOX -->
+        <label>
+            <input type="checkbox" name="Terms">
+            Terms And Condition
+        </label>
+        <br><br>
+        <!-- DropDown -->
+         <!-- using input and datalist tag -->
+          <!-- list="" and id="" should be samee and necessary -->
+          <input list="cartoon" type="text" placeholder="Select fav cartoon" name="fav-sports">
+          <datalist id="cartoon">
+            <option>SHINCHAN</option>
+            <option>DORAEMON</option>
+            <option>TOM AND JERRY</option>
+            <option>MICKEY MOUSE</option>
+          </datalist>
+          <br><br><br>
+          <!-- now using select tag -->
+           <!-- use multiple attribute for selecting multiple values -->
+           <select name="fav sports" multiple>
+            <!-- <option value="please select" unselected> Please select</option> -->
+            <option value="shinchan">SHINCHAN</option>
+            <option value="DORAEMON">DORAEMON</option>
+            <option value="TOM and JERRY">TOM AND JERRY</option>
+            <option value="MICKEY MOUSE">MICKEY MOUSE</option>
+           </select>
+           <br>
+           <!-- using radio buttons -->
+            <h5>SELECT gender</h5>
+            <!-- name="gender" helps to select only one option -->
+            <label>
+                <input type="radio" name="gender"> Male
+            </label>
+            <label>
+                <input type="radio" name="gender"> Female
+            </label>
+            <label>
+                <input type="radio" name="gender"> Other
+            </label><br><br>
+            <!-- textarea tag where you can expand the typing area -->
+             <label>
+               write about yourself;
+               <textarea cols="20" rows="10" placeholder="Write here" name="description"></textarea>
+             </label><br>
+
+             <input type="submit" value="DONE">
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS practise</title>
+</head>
+<!-- linking -->
+<link rel="stylesheet" href="practise.css" type="text/css">
+
+<body>
+    <!-- descendent and child selector example -->
+    <div id="main">
+        <!-- direct child  by child selector-->
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <div>
+            <!-- indirect child by descendent selector-->
+            <p>paragraph 3</p>
+        </div>
+    </div>
+    <p id="four">paragraph 4</p>
+    <div>
+        <p> paragraph 5</p>
+    </div>
+    <!-- pseudo class examplee -->
+    <!-- :hover effect example(tooltip example)..when mouse hovers for a while, a message text appears-->
+    <div id="tooltip-main">
+        Hover Me To Display tooltip
+        <p id="tooltip">Helloo, this is tooltip</p>
+    </div>
+</body>
+
+</html>

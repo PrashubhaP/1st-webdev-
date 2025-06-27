@@ -1,0 +1,39 @@
+/* use of . for class */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* display= flex for horixontal and block for vertical...direction is row at first and flex wrap helps, atekojati lai screeen ma rakhne navaye tala lagdine ...gap and centerized*/
+#Gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: none;
+    box-shadow: 10px 10px 10px pink;
+
+    /* helps to adjust image,, makes ut scrollable */
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+     border-radius: 20px; 
+}
+/* clearfix hack for the part of image going out of the box */
+/* 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ */
